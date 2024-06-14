@@ -1,0 +1,59 @@
+.header {
+	height: 60px;
+	background-color: #ffffff;
+	;
+
+	&>.container {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	&__nav {
+		display: flex;
+		align-items: center;
+		margin-right: 401px;
+	}
+
+	&__logo {
+		color: #000000;
+		font-size: 26px;
+		margin-right: 146px;
+	}
+
+	&__link {
+		color: #000000;
+		font-weight: 400;
+		font-size: 15px;
+
+		&:not(:last-child) {
+			margin-right: 15px;
+		}
+
+		&.active {
+			font-weight: 700;
+			font-size: 15px;
+			color: rgb(55, 160, 137)
+		}
+	}
+
+	&__contactAndCart {
+		display: flex;
+		align-items: center;
+
+		& .contact {
+			display: flex;
+			align-items: center;
+			margin-right: 67px;
+
+			& .tel {
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 140%;
+				letter-spacing: 0.02em;
+				color: #000;
+			}
+		}
+
+	}
+}
